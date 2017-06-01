@@ -70,7 +70,7 @@ protected $middleware = [
 ## Console
 You can add a new redirect based on referer:
 ``` bash
-php artisan referer:make {referer} {redirect} {--start} {--end}
+php artisan referer:make {referer} {redirect} {--start=} {--end=}
 ```
 This will lead you through the needed steps.
 

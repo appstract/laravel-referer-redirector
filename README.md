@@ -15,20 +15,6 @@ You can install the package via composer:
 composer require appstract/laravel-referer-redirector
 ```
 
-### Provider
-
-Then add the ServiceProvider to your `config/app.php` file:
-
-```php
-'providers' => [
-    ...
-
-    Appstract\RefererRedirector\RefererRedirectorServiceProvider::class
-
-    ...
-];
-```
-
 ### Publish
 
 By running php artisan vendor:publish --provider="Appstract\RefererRedirector\RefererRedirectorServiceProvider" in your project all files for this package will be published. The file that will be published is a migration. A middleware will be registered.
